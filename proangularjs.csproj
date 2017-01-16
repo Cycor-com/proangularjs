@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{8B963C85-4427-4D2C-89C8-71F3062F5934}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>proangularjs</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="9781430264484.jpg" />
+    <Content Include="Chapter 01\angular.js" />
+    <Content Include="Chapter 01\bootstrap-theme.css" />
+    <Content Include="Chapter 01\bootstrap.css" />
+    <Content Include="Chapter 01\Listing 01.html" />
+    <Content Include="Chapter 01\Listing 03.html" />
+    <Content Include="Chapter 01\Listing 04.js" />
+    <Content Include="Chapter 01\Listing 05.html" />
+    <Content Include="Chapter 01\test.html" />
+    <Content Include="Chapter 02\angular.js" />
+    <Content Include="Chapter 02\bootstrap-theme.css" />
+    <Content Include="Chapter 02\bootstrap.css" />
+    <Content Include="Chapter 02\Listing 02.html" />
+    <Content Include="Chapter 02\Listing 03.html" />
+    <Content Include="Chapter 02\Listing 04.html" />
+    <Content Include="Chapter 02\Listing 05.html" />
+    <Content Include="Chapter 02\Listing 06.html" />
+    <Content Include="Chapter 02\Listing 07.html" />
+    <Content Include="Chapter 02\Listing 08.html" />
+    <Content Include="Chapter 02\Listing 09.html" />
+    <Content Include="Chapter 02\Listing 10.html" />
+    <Content Include="Chapter 02\Listing 11.html" />
+    <Content Include="Chapter 02\Listing 12.html" />
+    <Content Include="Chapter 02\Listing 13.html" />
+    <Content Include="Chapter 02\Listing 13.js" />
+    <Content Include="Chapter 02\mytodo2.html" />
+    <Content Include="Chapter 02\todo.html" />
+    <Content Include="Chapter 04\angular.js" />
+    <Content Include="Chapter 04\bootstrap-theme.css" />
+    <Content Include="Chapter 04\bootstrap.css" />
+    <Content Include="Chapter 04\bootstrap.html" />
+    <Content Include="Chapter 04\Listing 01.html" />
+    <Content Include="Chapter 04\Listing 05.html" />
+    <Content Include="Chapter 04\Listing 06.html" />
+    <Content Include="Chapter 04\Listing 07.html" />
+    <Content Include="Chapter 04\Listing 08.html" />
+    <Content Include="Chapter 04\Listing 09.html" />
+    <Content Include="Chapter 04\Listing 10.html" />
+    <Content Include="Chapter 04\todo.html" />
+    <Content Include="Chapter 05\angular.js" />
+    <Content Include="Chapter 05\bootstrap-theme.css" />
+    <Content Include="Chapter 05\bootstrap.css" />
+    <Content Include="Chapter 05\jsdemo.html" />
+    <Content Include="Chapter 05\Listing 01.html" />
+    <Content Include="Chapter 05\Listing 02.js" />
+    <Content Include="Chapter 05\Listing 03.html" />
+    <Content Include="Chapter 05\Listing 04.html" />
+    <Content Include="Chapter 05\Listing 05.html" />
+    <Content Include="Chapter 05\Listing 06.html" />
+    <Content Include="Chapter 05\Listing 07.html" />
+    <Content Include="Chapter 05\Listing 08.html" />
+    <Content Include="Chapter 05\Listing 09.html" />
+    <Content Include="Chapter 05\Listing 10.html" />
+    <Content Include="Chapter 05\Listing 11.html" />
+    <Content Include="Chapter 05\Listing 12.html" />
+    <Content Include="Chapter 05\Listing 13.html" />
+    <Content Include="Chapter 05\Listing 14.html" />
+    <Content Include="Chapter 05\Listing 15.html" />
+    <Content Include="Chapter 05\Listing 16.html" />
+    <Content Include="Chapter 05\Listing 17.html" />
+    <Content Include="Chapter 05\Listing 18.html" />
+    <Content Include="Chapter 05\Listing 19.html" />
+    <Content Include="Chapter 05\Listing 20.html" />
+    <Content Include="Chapter 05\Listing 21.html" />
+    <Content Include="Chapter 05\Listing 22.html" />
+    <Content Include="Chapter 05\Listing 23.html" />
+    <Content Include="Chapter 05\Listing 24.html" />
+    <Content Include="Chapter 05\Listing 25.html" />
+    <Content Include="Chapter 05\Listing 26.html" />
+    <Content Include="Chapter 05\Listing 27.html" />
+    <Content Include="Chapter 05\Listing 28.html" />
+    <Content Include="Chapter 05\Listing 29.html" />
+    <Content Include="Chapter 05\Listing 30.html" />
+    <Content Include="Chapter 05\Listing 31.html" />
+    <Content Include="Chapter 05\Listing 32.html" />
+    <Content Include="Chapter 05\Listing 33.html" />
+    <Content Include="Chapter 05\Listing 34.html" />
+    <Content Include="Chapter 05\Listing 35.html" />
+    <Content Include="Chapter 05\Listing 36.html" />
+    <Content Include="Chapter 05\Listing 37.html" />
+    <Content Include="Chapter 05\Listing 38.html" />
+    <Content Include="Chapter 05\Listing 39.html" />
+    <Content Include="Chapter 05\Listing 40.html" />
+    <Content Include="Chapter 05\Listing 41.html" />
+    <Content Include="Chapter 05\Listing 42.html" />
+    <Content Include="Chapter 05\Listing 43.html" />
+    <Content Include="Chapter 05\Listing 44.html" />
+    <Content Include="Chapter 06\angular.js" />
+    <Content Include="Chapter 06\app.html" />
+    <Content Include="Chapter 06\bootstrap-theme.css" />
+    <Content Include="Chapter 06\bootstrap.css" />
+    <Content Include="Chapter 06\controllers\productListControllers.js" />
+    <Content Include="Chapter 06\controllers\sportsStore.js" />
+    <Content Include="Chapter 06\filters\customFilters.js" />
+    <Content Include="Chapter 06\Listing 01.html" />
+    <Content Include="Chapter 06\Listing 02.js" />
+    <Content Include="Chapter 06\Listing 03.html" />
+    <Content Include="Chapter 06\Listing 04.html" />
+    <Content Include="Chapter 06\Listing 05.html" />
+    <Content Include="Chapter 06\Listing 06.html" />
+    <Content Include="Chapter 06\Listing 07.html" />
+    <Content Include="Chapter 06\Listing 08.js" />
+    <Content Include="Chapter 06\Listing 09.html" />
+    <Content Include="Chapter 06\Listing 10.js" />
+    <Content Include="Chapter 06\Listing 11.js" />
+    <Content Include="Chapter 06\Listing 12.html" />
+    <Content Include="Chapter 07\angular.js" />
+    <Content Include="Chapter 07\app.html" />
+    <Content Include="Chapter 07\bootstrap-theme.css" />
+    <Content Include="Chapter 07\bootstrap.css" />
+    <Content Include="Chapter 07\components\cart\cart.js" />
+    <Content Include="Chapter 07\components\cart\cartSummary.html" />
+    <Content Include="Chapter 07\controllers\checkoutControllers.js" />
+    <Content Include="Chapter 07\controllers\productListControllers.js" />
+    <Content Include="Chapter 07\controllers\sportsStore.js" />
+    <Content Include="Chapter 07\filters\customFilters.js" />
+    <Content Include="Chapter 07\Listing 01.js" />
+    <Content Include="Chapter 07\Listing 02.html" />
+    <Content Include="Chapter 07\Listing 03.html" />
+    <Content Include="Chapter 07\Listing 04.html" />
+    <Content Include="Chapter 07\Listing 05.js" />
+    <Content Include="Chapter 07\Listing 06.js" />
+    <Content Include="Chapter 07\Listing 07.html" />
+    <Content Include="Chapter 07\Listing 08.html" />
+    <Content Include="Chapter 07\Listing 09.js" />
+    <Content Include="Chapter 07\Listing 10.html" />
+    <Content Include="Chapter 07\Listing 11.html" />
+    <Content Include="Chapter 07\Listing 12.html" />
+    <Content Include="Chapter 07\Listing 13.html" />
+    <Content Include="Chapter 07\Listing 14.js" />
+    <Content Include="Chapter 07\Listing 15.html" />
+    <Content Include="Chapter 07\Listing 16.html" />
+    <Content Include="Chapter 07\ngmodules\angular-route.js" />
+    <Content Include="Chapter 07\views\checkoutSummary.html" />
+    <Content Include="Chapter 07\views\productList.html" />
+    <Content Include="Chapter 08\admin.html" />
+    <Content Include="Chapter 08\angular.js" />
+    <Content Include="Chapter 08\app.html" />
+    <Content Include="Chapter 08\bootstrap-theme.css" />
+    <Content Include="Chapter 08\bootstrap.css" />
+    <Content Include="Chapter 08\components\cart\cart.js" />
+    <Content Include="Chapter 08\components\cart\cartSummary.html" />
+    <Content Include="Chapter 08\controllers\adminControllers.js" />
+    <Content Include="Chapter 08\controllers\adminProductController.js" />
+    <Content Include="Chapter 08\controllers\checkoutControllers.js" />
+    <Content Include="Chapter 08\controllers\productListControllers.js" />
+    <Content Include="Chapter 08\controllers\sportsStore.js" />
+    <Content Include="Chapter 08\filters\customFilters.js" />
+    <Content Include="Chapter 08\Listing 01.html" />
+    <Content Include="Chapter 08\Listing 02.html" />
+    <Content Include="Chapter 08\Listing 03.html" />
+    <Content Include="Chapter 08\Listing 04.html" />
+    <Content Include="Chapter 08\Listing 05.html" />
+    <Content Include="Chapter 08\Listing 06.js" />
+    <Content Include="Chapter 08\Listing 07.html" />
+    <Content Include="Chapter 08\Listing 08.html" />
+    <Content Include="Chapter 08\Listing 09.html" />
+    <Content Include="Chapter 08\Listing 10.html" />
+    <Content Include="Chapter 08\Listing 11.js" />
+    <Content Include="Chapter 08\Listing 12.html" />
+    <Content Include="Chapter 08\Listing 13.html" />
+    <Content Include="Chapter 08\Listing 14.html" />
+    <Content Include="Chapter 08\Listing 15.html" />
+    <Content Include="Chapter 08\Listing 16.js" />
+    <Content Include="Chapter 08\Listing 17.html" />
+    <Content Include="Chapter 08\Listing 18.html" />
+    <Content Include="Chapter 08\Listing 19.html" />
+    <Content Include="Chapter 08\Listing 20.js" />
+    <Content Include="Chapter 08\Listing 21.html" />
+    <Content Include="Chapter 08\Listing 22.html" />
+    <Content Include="Chapter 08\ngmodules\angular-resource.js" />
+    <Content Include="Chapter 08\ngmodules\angular-route.js" />
+    <Content Include="Chapter 08\views\adminLogin.html" />
+    <Content Include="Chapter 08\views\adminMain.html" />
+    <Content Include="Chapter 08\views\adminOrders.html" />
+    <Content Include="Chapter 08\views\adminProducts.html" />
+    <Content Include="Chapter 08\views\checkoutSummary.html" />
+    <Content Include="Chapter 08\views\placeOrder.html" />
+    <Content Include="Chapter 08\views\productList.html" />
+    <Content Include="Chapter 08\views\thankYou.html" />
+    <Content Include="Chapter 09\angular.js" />
+    <Content Include="Chapter 09\bootstrap-theme.css" />
+    <Content Include="Chapter 09\bootstrap.css" />
+    <Content Include="Chapter 09\controllers.js" />
+    <Content Include="Chapter 09\example.html" />
+    <Content Include="Chapter 09\filters.js" />
+    <Content Include="Chapter 09\Listing 01.html" />
+    <Content Include="Chapter 09\Listing 02.html" />
+    <Content Include="Chapter 09\Listing 03.html" />
+    <Content Include="Chapter 09\Listing 04.html" />
+    <Content Include="Chapter 09\Listing 05.html" />
+    <Content Include="Chapter 09\Listing 06.html" />
+    <Content Include="Chapter 09\Listing 07.html" />
+    <Content Include="Chapter 09\Listing 08.html" />
+    <Content Include="Chapter 09\Listing 09.html" />
+    <Content Include="Chapter 09\Listing 10.html" />
+    <Content Include="Chapter 09\Listing 11.html" />
+    <Content Include="Chapter 09\Listing 12.html" />
+    <Content Include="Chapter 09\Listing 13.html" />
+    <Content Include="Chapter 09\Listing 14.js" />
+    <Content Include="Chapter 09\Listing 15.js" />
+    <Content Include="Chapter 09\Listing 16.html" />
+    <Content Include="Chapter 09\Listing 17.html" />
+    <Content Include="Chapter 10\angular.js" />
+    <Content Include="Chapter 10\bootstrap-theme.css" />
+    <Content Include="Chapter 10\bootstrap.css" />
+    <Content Include="Chapter 10\bootstrap.html" />
+    <Content Include="Chapter 10\directives.html" />
+    <Content Include="Chapter 10\list.html" />
+    <Content Include="Chapter 10\Listing 01.html" />
+    <Content Include="Chapter 10\Listing 02.html" />
+    <Content Include="Chapter 10\Listing 03.html" />
+    <Content Include="Chapter 10\Listing 04.html" />
+    <Content Include="Chapter 10\Listing 05.html" />
+    <Content Include="Chapter 10\Listing 06.html" />
+    <Content Include="Chapter 10\Listing 07.html" />
+    <Content Include="Chapter 10\Listing 08.html" />
+    <Content Include="Chapter 10\Listing 09.html" />
+    <Content Include="Chapter 10\Listing 10.html" />
+    <Content Include="Chapter 10\Listing 11.html" />
+    <Content Include="Chapter 10\Listing 12.html" />
+    <Content Include="Chapter 10\Listing 13.html" />
+    <Content Include="Chapter 10\Listing 14.html" />
+    <Content Include="Chapter 10\Listing 15.html" />
+    <Content Include="Chapter 10\Listing 16.html" />
+    <Content Include="Chapter 10\Listing 17.html" />
+    <Content Include="Chapter 10\Listing 18.html" />
+    <Content Include="Chapter 10\table.html" />
+    <Content Include="Chapter 10\todo.html" />
+    <Content Include="Chapter 11\angular.js" />
+    <Content Include="Chapter 11\bootstrap-theme.css" />
+    <Content Include="Chapter 11\bootstrap.css" />
+    <Content Include="Chapter 11\bootstrap.html" />
+    <Content Include="Chapter 11\directives.html" />
+    <Content Include="Chapter 11\list.html" />
+    <Content Include="Chapter 11\Listing 01.html" />
+    <Content Include="Chapter 11\Listing 02.html" />
+    <Content Include="Chapter 11\Listing 03.html" />
+    <Content Include="Chapter 11\Listing 04.html" />
+    <Content Include="Chapter 11\Listing 05.html" />
+    <Content Include="Chapter 11\Listing 06.html" />
+    <Content Include="Chapter 11\Listing 07.html" />
+    <Content Include="Chapter 11\Listing 08.html" />
+    <Content Include="Chapter 11\Listing 09.html" />
+    <Content Include="Chapter 11\Listing 10.html" />
+    <Content Include="Chapter 11\table.html" />
+    <Content Include="Chapter 11\todo.html" />
+    <Content Include="Chapter 12\angular.js" />
+    <Content Include="Chapter 12\bootstrap-theme.css" />
+    <Content Include="Chapter 12\bootstrap.css" />
+    <Content Include="Chapter 12\bootstrap.html" />
+    <Content Include="Chapter 12\forms.html" />
+    <Content Include="Chapter 12\list.html" />
+    <Content Include="Chapter 12\Listing 01.html" />
+    <Content Include="Chapter 12\Listing 02.html" />
+    <Content Include="Chapter 12\Listing 03.html" />
+    <Content Include="Chapter 12\Listing 04.html" />
+    <Content Include="Chapter 12\Listing 05.html" />
+    <Content Include="Chapter 12\Listing 06.html" />
+    <Content Include="Chapter 12\Listing 07.html" />
+    <Content Include="Chapter 12\Listing 08.html" />
+    <Content Include="Chapter 12\Listing 09.html" />
+    <Content Include="Chapter 12\Listing 10.html" />
+    <Content Include="Chapter 12\Listing 11.html" />
+    <Content Include="Chapter 12\Listing 12.html" />
+    <Content Include="Chapter 12\Listing 13.html" />
+    <Content Include="Chapter 12\Listing 14.html" />
+    <Content Include="Chapter 12\Listing 15.html" />
+    <Content Include="Chapter 12\Listing 16.html" />
+    <Content Include="Chapter 12\Listing 17.html" />
+    <Content Include="Chapter 12\Listing 18.html" />
+    <Content Include="Chapter 12\table.html" />
+    <Content Include="Chapter 12\todo.html" />
+    <Content Include="Chapter 13\angular.js" />
+    <Content Include="Chapter 13\bootstrap-theme.css" />
+    <Content Include="Chapter 13\bootstrap.css" />
+    <Content Include="Chapter 13\bootstrap.html" />
+    <Content Include="Chapter 13\controllers.html" />
+    <Content Include="Chapter 13\controllers.js" />
+    <Content Include="Chapter 13\list.html" />
+    <Content Include="Chapter 13\Listing 01.html" />
+    <Content Include="Chapter 13\Listing 02.html" />
+    <Content Include="Chapter 13\Listing 03.html" />
+    <Content Include="Chapter 13\Listing 04.html" />
+    <Content Include="Chapter 13\Listing 05.html" />
+    <Content Include="Chapter 13\Listing 06.html" />
+    <Content Include="Chapter 13\Listing 07.html" />
+    <Content Include="Chapter 13\Listing 08.html" />
+    <Content Include="Chapter 13\Listing 09.html" />
+    <Content Include="Chapter 13\Listing 10.js" />
+    <Content Include="Chapter 13\Listing 11.js" />
+    <Content Include="Chapter 13\Listing 12.html" />
+    <Content Include="Chapter 13\Listing 13.html" />
+    <Content Include="Chapter 13\Listing 14.html" />
+    <Content Include="Chapter 13\Listing 15.html" />
+    <Content Include="Chapter 13\Listing 16.html" />
+    <Content Include="Chapter 13\Listing 17.html" />
+    <Content Include="Chapter 13\table.html" />
+    <Content Include="Chapter 13\todo.html" />
+    <Content Include="Chapter 14\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 14\angular.js" />
+    <Content Include="Chapter 14\bootstrap-theme.css" />
+    <Content Include="Chapter 14\bootstrap.css" />
+    <Content Include="Chapter 14\bootstrap.html" />
+    <Content Include="Chapter 14\controllers.html" />
+    <Content Include="Chapter 14\controllers.js" />
+    <Content Include="Chapter 14\customFilters.js" />
+    <Content Include="Chapter 14\filters.html" />
+    <Content Include="Chapter 14\list.html" />
+    <Content Include="Chapter 14\Listing 01.html" />
+    <Content Include="Chapter 14\Listing 02.html" />
+    <Content Include="Chapter 14\Listing 03.html" />
+    <Content Include="Chapter 14\Listing 04.html" />
+    <Content Include="Chapter 14\Listing 05.html" />
+    <Content Include="Chapter 14\Listing 06.html" />
+    <Content Include="Chapter 14\Listing 07.html" />
+    <Content Include="Chapter 14\Listing 08.html" />
+    <Content Include="Chapter 14\Listing 09.html" />
+    <Content Include="Chapter 14\Listing 10.html" />
+    <Content Include="Chapter 14\Listing 11.html" />
+    <Content Include="Chapter 14\Listing 12.html" />
+    <Content Include="Chapter 14\Listing 13.html" />
+    <Content Include="Chapter 14\Listing 14.html" />
+    <Content Include="Chapter 14\Listing 15.html" />
+    <Content Include="Chapter 14\Listing 16.html" />
+    <Content Include="Chapter 14\Listing 17.html" />
+    <Content Include="Chapter 14\Listing 18.js" />
+    <Content Include="Chapter 14\Listing 19.html" />
+    <Content Include="Chapter 14\Listing 20.html" />
+    <Content Include="Chapter 14\Listing 21.js" />
+    <Content Include="Chapter 14\Listing 22.html" />
+    <Content Include="Chapter 14\Listing 23.js" />
+    <Content Include="Chapter 14\Listing 24.html" />
+    <Content Include="Chapter 14\table.html" />
+    <Content Include="Chapter 14\todo.html" />
+    <Content Include="Chapter 15\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 15\angular.js" />
+    <Content Include="Chapter 15\bootstrap-theme.css" />
+    <Content Include="Chapter 15\bootstrap.css" />
+    <Content Include="Chapter 15\bootstrap.html" />
+    <Content Include="Chapter 15\controllers.html" />
+    <Content Include="Chapter 15\controllers.js" />
+    <Content Include="Chapter 15\customFilters.js" />
+    <Content Include="Chapter 15\directives.html" />
+    <Content Include="Chapter 15\filters.html" />
+    <Content Include="Chapter 15\jqlite.html" />
+    <Content Include="Chapter 15\list.html" />
+    <Content Include="Chapter 15\Listing 01.html" />
+    <Content Include="Chapter 15\Listing 02.html" />
+    <Content Include="Chapter 15\Listing 03.html" />
+    <Content Include="Chapter 15\Listing 04.html" />
+    <Content Include="Chapter 15\Listing 05.html" />
+    <Content Include="Chapter 15\Listing 06.html" />
+    <Content Include="Chapter 15\Listing 07.html" />
+    <Content Include="Chapter 15\Listing 08.html" />
+    <Content Include="Chapter 15\Listing 09.html" />
+    <Content Include="Chapter 15\Listing 10.html" />
+    <Content Include="Chapter 15\Listing 11.html" />
+    <Content Include="Chapter 15\Listing 12.html" />
+    <Content Include="Chapter 15\Listing 13.html" />
+    <Content Include="Chapter 15\Listing 14.html" />
+    <Content Include="Chapter 15\Listing 15.html" />
+    <Content Include="Chapter 15\Listing 16.html" />
+    <Content Include="Chapter 15\Listing 17.html" />
+    <Content Include="Chapter 15\Listing 18.html" />
+    <Content Include="Chapter 15\Listing 19.html" />
+    <Content Include="Chapter 15\Listing 20.html" />
+    <Content Include="Chapter 15\table.html" />
+    <Content Include="Chapter 15\todo.html" />
+    <Content Include="Chapter 16\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 16\angular.js" />
+    <Content Include="Chapter 16\bootstrap-theme.css" />
+    <Content Include="Chapter 16\bootstrap.css" />
+    <Content Include="Chapter 16\bootstrap.html" />
+    <Content Include="Chapter 16\controllers.html" />
+    <Content Include="Chapter 16\controllers.js" />
+    <Content Include="Chapter 16\customFilters.js" />
+    <Content Include="Chapter 16\directives.html" />
+    <Content Include="Chapter 16\directiveScopes.html" />
+    <Content Include="Chapter 16\filters.html" />
+    <Content Include="Chapter 16\itemTemplate.html" />
+    <Content Include="Chapter 16\jqlite.html" />
+    <Content Include="Chapter 16\list.html" />
+    <Content Include="Chapter 16\Listing 01.html" />
+    <Content Include="Chapter 16\Listing 02.html" />
+    <Content Include="Chapter 16\Listing 03.html" />
+    <Content Include="Chapter 16\Listing 04.html" />
+    <Content Include="Chapter 16\Listing 05.html" />
+    <Content Include="Chapter 16\Listing 06.html" />
+    <Content Include="Chapter 16\Listing 07.html" />
+    <Content Include="Chapter 16\Listing 08.html" />
+    <Content Include="Chapter 16\Listing 09.html" />
+    <Content Include="Chapter 16\Listing 10.html" />
+    <Content Include="Chapter 16\Listing 11.html" />
+    <Content Include="Chapter 16\Listing 12.html" />
+    <Content Include="Chapter 16\Listing 13.html" />
+    <Content Include="Chapter 16\Listing 14.html" />
+    <Content Include="Chapter 16\Listing 15.html" />
+    <Content Include="Chapter 16\Listing 16.html" />
+    <Content Include="Chapter 16\Listing 17.html" />
+    <Content Include="Chapter 16\Listing 18.html" />
+    <Content Include="Chapter 16\Listing 19.html" />
+    <Content Include="Chapter 16\Listing 20.html" />
+    <Content Include="Chapter 16\Listing 21.html" />
+    <Content Include="Chapter 16\Listing 22.html" />
+    <Content Include="Chapter 16\Listing 23.html" />
+    <Content Include="Chapter 16\Listing 24.html" />
+    <Content Include="Chapter 16\table.html" />
+    <Content Include="Chapter 16\tableTemplate.html" />
+    <Content Include="Chapter 16\todo.html" />
+    <Content Include="Chapter 16\transclude.html" />
+    <Content Include="Chapter 17\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 17\angular.js" />
+    <Content Include="Chapter 17\bootstrap-theme.css" />
+    <Content Include="Chapter 17\bootstrap.css" />
+    <Content Include="Chapter 17\bootstrap.html" />
+    <Content Include="Chapter 17\compileFunction.html" />
+    <Content Include="Chapter 17\controllers.html" />
+    <Content Include="Chapter 17\controllers.js" />
+    <Content Include="Chapter 17\customFilters.js" />
+    <Content Include="Chapter 17\customForms.html" />
+    <Content Include="Chapter 17\directiveControllers.html" />
+    <Content Include="Chapter 17\directives.html" />
+    <Content Include="Chapter 17\directiveScopes.html" />
+    <Content Include="Chapter 17\filters.html" />
+    <Content Include="Chapter 17\itemTemplate.html" />
+    <Content Include="Chapter 17\jqlite.html" />
+    <Content Include="Chapter 17\list.html" />
+    <Content Include="Chapter 17\Listing 01.html" />
+    <Content Include="Chapter 17\Listing 02.html" />
+    <Content Include="Chapter 17\Listing 03.html" />
+    <Content Include="Chapter 17\Listing 04.html" />
+    <Content Include="Chapter 17\Listing 05.html" />
+    <Content Include="Chapter 17\Listing 06.html" />
+    <Content Include="Chapter 17\Listing 07.html" />
+    <Content Include="Chapter 17\Listing 08.html" />
+    <Content Include="Chapter 17\Listing 09.html" />
+    <Content Include="Chapter 17\Listing 10.html" />
+    <Content Include="Chapter 17\Listing 11.html" />
+    <Content Include="Chapter 17\Listing 12.html" />
+    <Content Include="Chapter 17\table.html" />
+    <Content Include="Chapter 17\tableTemplate.html" />
+    <Content Include="Chapter 17\todo.html" />
+    <Content Include="Chapter 17\transclude.html" />
+    <Content Include="Chapter 18\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 18\angular.js" />
+    <Content Include="Chapter 18\bootstrap-theme.css" />
+    <Content Include="Chapter 18\bootstrap.css" />
+    <Content Include="Chapter 18\directives.js" />
+    <Content Include="Chapter 18\domApi.html" />
+    <Content Include="Chapter 18\example.html" />
+    <Content Include="Chapter 18\Listing 01.html" />
+    <Content Include="Chapter 18\Listing 02.js" />
+    <Content Include="Chapter 18\Listing 03.html" />
+    <Content Include="Chapter 18\Listing 04.js" />
+    <Content Include="Chapter 18\Listing 05.html" />
+    <Content Include="Chapter 18\Listing 06.js" />
+    <Content Include="Chapter 18\Listing 07.html" />
+    <Content Include="Chapter 18\Listing 08.js" />
+    <Content Include="Chapter 18\Listing 09.js" />
+    <Content Include="Chapter 18\Listing 10.js" />
+    <Content Include="Chapter 18\Listing 11.js" />
+    <Content Include="Chapter 18\Listing 12.js" />
+    <Content Include="Chapter 18\Listing 13.html" />
+    <Content Include="Chapter 18\services.js" />
+    <Content Include="Chapter 19\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 19\angular-sanitize.js" />
+    <Content Include="Chapter 19\angular.js" />
+    <Content Include="Chapter 19\bootstrap-theme.css" />
+    <Content Include="Chapter 19\bootstrap.css" />
+    <Content Include="Chapter 19\directives.js" />
+    <Content Include="Chapter 19\domApi.html" />
+    <Content Include="Chapter 19\example.html" />
+    <Content Include="Chapter 19\exceptions.html" />
+    <Content Include="Chapter 19\expressions.html" />
+    <Content Include="Chapter 19\htmlData.html" />
+    <Content Include="Chapter 19\Listing 01.html" />
+    <Content Include="Chapter 19\Listing 02.html" />
+    <Content Include="Chapter 19\Listing 03.html" />
+    <Content Include="Chapter 19\Listing 04.html" />
+    <Content Include="Chapter 19\Listing 05.html" />
+    <Content Include="Chapter 19\Listing 06.html" />
+    <Content Include="Chapter 19\Listing 07.html" />
+    <Content Include="Chapter 19\Listing 08.html" />
+    <Content Include="Chapter 19\Listing 09.js" />
+    <Content Include="Chapter 19\Listing 10.js" />
+    <Content Include="Chapter 19\Listing 11.html" />
+    <Content Include="Chapter 19\Listing 12.html" />
+    <Content Include="Chapter 19\Listing 13.html" />
+    <Content Include="Chapter 19\Listing 14.html" />
+    <Content Include="Chapter 19\Listing 15.html" />
+    <Content Include="Chapter 19\Listing 16.html" />
+    <Content Include="Chapter 19\Listing 17.html" />
+    <Content Include="Chapter 19\Listing 18.html" />
+    <Content Include="Chapter 19\Listing 19.html" />
+    <Content Include="Chapter 19\Listing 20.html" />
+    <Content Include="Chapter 19\Listing 21.html" />
+    <Content Include="Chapter 19\Listing 22.html" />
+    <Content Include="Chapter 19\services.js" />
+    <Content Include="Chapter 20\ajax.html" />
+    <Content Include="Chapter 20\angular-locale_fr-fr.js" />
+    <Content Include="Chapter 20\angular-sanitize.js" />
+    <Content Include="Chapter 20\angular.js" />
+    <Content Include="Chapter 20\bootstrap-theme.css" />
+    <Content Include="Chapter 20\bootstrap.css" />
+    <Content Include="Chapter 20\components.html" />
+    <Content Include="Chapter 20\directives.js" />
+    <Content Include="Chapter 20\domApi.html" />
+    <Content Include="Chapter 20\example.html" />
+    <Content Include="Chapter 20\exceptions.html" />
+    <Content Include="Chapter 20\expressions.html" />
+    <Content Include="Chapter 20\htmlData.html" />
+    <Content Include="Chapter 20\Listing 01.js" />
+    <Content Include="Chapter 20\Listing 02.html" />
+    <Content Include="Chapter 20\Listing 03.html" />
+    <Content Include="Chapter 20\Listing 04.html" />
+    <Content Include="Chapter 20\Listing 05.xml" />
+    <Content Include="Chapter 20\Listing 06.html" />
+    <Content Include="Chapter 20\Listing 07.html" />
+    <Content Include="Chapter 20\Listing 08.html" />
+    <Content Include="Chapter 20\Listing 09.html" />
+    <Content Include="Chapter 20\Listing 10.html" />
+    <Content Include="Chapter 20\Listing 11.html" />
+    <Content Include="Chapter 20\Listing 12.html" />
+    <Content Include="Chapter 20\Listing 13.html" />
+    <Content Include="Chapter 20\Listing 14.html" />
+    <Content Include="Chapter 20\Listing 15.html" />
+    <Content Include="Chapter 20\productData.xml" />
+    <Content Include="Chapter 20\promises.html" />
+    <Content Include="Chapter 20\services.js" />
+    <Content Include="Chapter 21\angular-resource.js" />
+    <Content Include="Chapter 21\angular-route.js" />
+    <Content Include="Chapter 21\angular.js" />
+    <Content Include="Chapter 21\bootstrap-theme.css" />
+    <Content Include="Chapter 21\bootstrap.css" />
+    <Content Include="Chapter 21\editorView.html" />
+    <Content Include="Chapter 21\increment.js" />
+    <Content Include="Chapter 21\Listing 01.html" />
+    <Content Include="Chapter 21\Listing 02.js" />
+    <Content Include="Chapter 21\Listing 03.html" />
+    <Content Include="Chapter 21\Listing 04.html" />
+    <Content Include="Chapter 21\Listing 05.js" />
+    <Content Include="Chapter 21\Listing 06.js" />
+    <Content Include="Chapter 21\Listing 08.js" />
+    <Content Include="Chapter 21\Listing 09.js" />
+    <Content Include="Chapter 21\Listing 10.html" />
+    <Content Include="Chapter 21\Listing 11.js" />
+    <Content Include="Chapter 21\Listing 12.html" />
+    <Content Include="Chapter 21\Listing 13.html" />
+    <Content Include="Chapter 21\Listing 14.js" />
+    <Content Include="Chapter 21\Listing 15.js" />
+    <Content Include="Chapter 21\Listing 16.js" />
+    <Content Include="Chapter 21\Listing 17.js" />
+    <Content Include="Chapter 21\Listing 18.html" />
+    <Content Include="Chapter 21\products.html" />
+    <Content Include="Chapter 21\products.js" />
+    <Content Include="Chapter 21\tableView.html" />
+    <Content Include="Chapter 22\angular-animate.js" />
+    <Content Include="Chapter 22\angular-resource.js" />
+    <Content Include="Chapter 22\angular-route.js" />
+    <Content Include="Chapter 22\angular.js" />
+    <Content Include="Chapter 22\bootstrap-theme.css" />
+    <Content Include="Chapter 22\bootstrap.css" />
+    <Content Include="Chapter 22\editorView.html" />
+    <Content Include="Chapter 22\increment.js" />
+    <Content Include="Chapter 22\Listing 01.html" />
+    <Content Include="Chapter 22\Listing 02.js" />
+    <Content Include="Chapter 22\Listing 03.html" />
+    <Content Include="Chapter 22\Listing 04.js" />
+    <Content Include="Chapter 22\Listing 05.html" />
+    <Content Include="Chapter 22\Listing 06.js" />
+    <Content Include="Chapter 22\Listing 07.html" />
+    <Content Include="Chapter 22\Listing 08.js" />
+    <Content Include="Chapter 22\Listing 09.html" />
+    <Content Include="Chapter 22\Listing 10.js" />
+    <Content Include="Chapter 22\Listing 11.js" />
+    <Content Include="Chapter 22\Listing 12.js" />
+    <Content Include="Chapter 22\Listing 13.html" />
+    <Content Include="Chapter 22\products.html" />
+    <Content Include="Chapter 22\products.js" />
+    <Content Include="Chapter 22\tableView.html" />
+    <Content Include="Chapter 23\angular-animate.js" />
+    <Content Include="Chapter 23\angular-resource.js" />
+    <Content Include="Chapter 23\angular-route.js" />
+    <Content Include="Chapter 23\angular-touch.js" />
+    <Content Include="Chapter 23\angular.js" />
+    <Content Include="Chapter 23\bootstrap-theme.css" />
+    <Content Include="Chapter 23\bootstrap.css" />
+    <Content Include="Chapter 23\editorView.html" />
+    <Content Include="Chapter 23\increment.js" />
+    <Content Include="Chapter 23\Listing 01.html" />
+    <Content Include="Chapter 23\Listing 02.js" />
+    <Content Include="Chapter 23\Listing 03.html" />
+    <Content Include="Chapter 23\Listing 04.html" />
+    <Content Include="Chapter 23\Listing 05.html" />
+    <Content Include="Chapter 23\products.html" />
+    <Content Include="Chapter 23\products.js" />
+    <Content Include="Chapter 23\swipe.html" />
+    <Content Include="Chapter 23\tableView.html" />
+    <Content Include="Chapter 24\angular.js" />
+    <Content Include="Chapter 24\bootstrap-theme.css" />
+    <Content Include="Chapter 24\bootstrap.css" />
+    <Content Include="Chapter 24\components.html" />
+    <Content Include="Chapter 24\Listing 01.html" />
+    <Content Include="Chapter 24\Listing 02.html" />
+    <Content Include="Chapter 24\Listing 03.html" />
+    <Content Include="Chapter 24\Listing 04.html" />
+    <Content Include="Chapter 24\Listing 05.html" />
+    <Content Include="Chapter 24\Listing 06.html" />
+    <Content Include="Chapter 25\angular-mocks.js" />
+    <Content Include="Chapter 25\angular.js" />
+    <Content Include="Chapter 25\app.html" />
+    <Content Include="Chapter 25\app.js" />
+    <Content Include="Chapter 25\bootstrap-theme.css" />
+    <Content Include="Chapter 25\bootstrap.css" />
+    <Content Include="Chapter 25\home.js" />
+    <Content Include="Chapter 25\karma.config.js" />
+    <Content Include="Chapter 25\Listing 01.html" />
+    <Content Include="Chapter 25\Listing 02.js" />
+    <Content Include="Chapter 25\Listing 03.js" />
+    <Content Include="Chapter 25\Listing 04.js" />
+    <Content Include="Chapter 25\Listing 05.js" />
+    <Content Include="Chapter 25\Listing 06.js" />
+    <Content Include="Chapter 25\Listing 07.js" />
+    <Content Include="Chapter 25\Listing 08.js" />
+    <Content Include="Chapter 25\Listing 09.js" />
+    <Content Include="Chapter 25\Listing 10.js" />
+    <Content Include="Chapter 25\Listing 11.js" />
+    <Content Include="Chapter 25\Listing 12.js" />
+    <Content Include="Chapter 25\Listing 13.js" />
+    <Content Include="Chapter 25\Listing 14.js" />
+    <Content Include="Chapter 25\Listing 15.js" />
+    <Content Include="Chapter 25\Listing 16.js" />
+    <Content Include="Chapter 25\Listing 17.js" />
+    <Content Include="Chapter 25\tests\controllerTest.js" />
+    <Content Include="Chapter 25\tests\directiveTest.js" />
+    <Content Include="Chapter 25\tests\filterTest.js" />
+    <Content Include="Chapter 25\tests\firstTest.js" />
+    <Content Include="Chapter 25\tests\serviceTest.js" />
+    <Content Include="Deployd_README.txt" />
+    <Content Include="LICENSE.txt" />
+    <Content Include="sportsstore\admin.html" />
+    <Content Include="sportsstore\angular.js" />
+    <Content Include="sportsstore\app.html" />
+    <Content Include="sportsstore\bootstrap-theme.css" />
+    <Content Include="sportsstore\bootstrap.css" />
+    <Content Include="sportsstore\components\cart\cart.js" />
+    <Content Include="sportsstore\components\cart\cartSummary.html" />
+    <Content Include="sportsstore\controllers\adminControllers.js" />
+    <Content Include="sportsstore\controllers\adminProductsController.js" />
+    <Content Include="sportsstore\controllers\checkoutControllers.js" />
+    <Content Include="sportsstore\controllers\productListControllers.js" />
+    <Content Include="sportsstore\controllers\sportsStore.js" />
+    <Content Include="sportsstore\filters\customFilters.js" />
+    <Content Include="sportsstore\ngmodules\angular-resource.js" />
+    <Content Include="sportsstore\ngmodules\angular-route.js" />
+    <Content Include="sportsstore\views\adminLogin.html" />
+    <Content Include="sportsstore\views\adminMain.html" />
+    <Content Include="sportsstore\views\adminOrders.html" />
+    <Content Include="sportsstore\views\adminProducts.html" />
+    <Content Include="sportsstore\views\checkoutSummary.html" />
+    <Content Include="sportsstore\views\placeOrder.html" />
+    <Content Include="sportsstore\views\productList.html" />
+    <Content Include="sportsstore\views\thankYou.html" />
+    <Content Include="_Deployd Installers\deployd-win-0.6.9.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chapter 02\todo.json" />
+    <None Include="Chapter 05\todo.json" />
+    <None Include="Chapter 20\productData.json" />
+    <None Include="contributing.md" />
+    <None Include="errata.md" />
+    <None Include="README.md" />
+    <None Include="_Deployd Installers\deployd-deployd-v0.6.10-0-gd157609.zip" />
+    <None Include="_Deployd Installers\deployd-osx-0.6.10.pkg" />
+    <None Include="_Supplemental_Deployd_Chapters_and_Code\Replacement Chapters using Parse.com.pdf" />
+    <None Include="_Supplemental_Deployd_Chapters_and_Code\Source Code for Parse.com Chapters.zip" />
+    <None Include="_Supplemental_Deployd_Chapters_and_Code\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
